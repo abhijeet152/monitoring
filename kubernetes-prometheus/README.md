@@ -3,6 +3,8 @@
  - Create a Namespace monitoring 
  ``` kubectl create namespace monitoring ```
  
+ ``` kubectl config set-context --current --namespace=monitoring ```
+ 
  - Create the role using the following command
  ``` kubectl create -f clusterRole.yaml ```
  
